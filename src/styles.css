@@ -1,37 +1,58 @@
 /* Base styles (extra small devices - mobile) */
 /* CSS rules */
-html {
+/* html {
   font-size: 14px;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   color: #444444;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   color: #222222;
 }
 
-h1 { font-size: 2.5rem; text-align: center; margin: 8px 0; }
-h2 { font-size: 2rem; text-align: center; }
-h3 { font-size: 1.75rem; }
-h4 { font-size: 1.5rem; }
-h5 { font-size: 1.25rem; }
-h6 { font-size: 1rem; }
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 8px 0;
+}
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1rem;
+}
 
 a {
   text-decoration: none;
-  color: #3B82F6;
+  color: #3b82f6;
 }
 
-a:hover, a:focus {
-  color: #1D4ED8;
+a:hover,
+a:focus {
+  color: #1d4ed8;
 }
 
 #navbar {
@@ -42,7 +63,6 @@ a:hover, a:focus {
 #logo-with-text {
   display: none;
 }
-
 
 #banner {
   object-fit: cover;
@@ -105,7 +125,9 @@ a:hover, a:focus {
   font-weight: 600;
 }
 
-.form-group input, select, textarea {
+.form-group input,
+select,
+textarea {
   padding: 8px;
   width: 90%;
   font-size: 1.25rem;
@@ -115,7 +137,7 @@ a:hover, a:focus {
 }
 
 .form-group textarea {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .form-group input[type="checkbox"] {
@@ -124,43 +146,42 @@ a:hover, a:focus {
 }
 
 .form-group input[type="submit"] {
-  background-color: #3B82F6;
+  background-color: #3b82f6;
   color: white;
   font-weight: 500;
   cursor: pointer;
 }
 
 #footer {
-  background-color: #E2E8F0;
+  background-color: #e2e8f0;
   padding: 8px;
   margin-top: 32px;
   text-align: center;
 }
 
 #footer-links {
-  list-style: none; 
-  padding: 0; 
+  list-style: none;
+  padding: 0;
 }
 
 #footer-links li {
   margin: 8px 0;
 }
 
-
 .copyright {
-  color: #71717A;
+  color: #71717a;
   font-size: 0.875rem;
-}
-
-
+} */
 
 /* Small devices (tablets) */
-@media screen and (min-width: 576px) {
+/* @media screen and (min-width: 576px) {
   html {
     font-size: 16px;
   }
 
-  h1 { margin: 16px 0; }
+  h1 {
+    margin: 16px 0;
+  }
 
   #logo {
     display: none;
@@ -177,18 +198,18 @@ a:hover, a:focus {
   #footer-links li {
     display: inline;
     margin: 0 16px;
-  }  
-  
-}
+  }
+} */
 
 /* Medium devices (laptops) */
-@media screen and (min-width: 768px) {
-
+/* @media screen and (min-width: 768px) {
   #banner {
     height: 280px;
   }
 
-  h1 { margin: 20px 0; }
+  h1 {
+    margin: 20px 0;
+  }
 
   #about {
     flex-direction: row;
@@ -200,7 +221,7 @@ a:hover, a:focus {
     padding-right: 8px;
     font-size: 1.25rem;
   }
-  
+
   #team {
     width: 50%;
   }
@@ -219,58 +240,43 @@ a:hover, a:focus {
     border: 1px solid gray;
     border-collapse: collapse;
   }
-  
+
   .jobs-header-row th {
     border: 1px solid gray;
     padding: 8px;
-    background-color: #BFDBFE;
+    background-color: #bfdbfe;
     text-align: center;
     color: #222222;
   }
-  
+
   .jobs-data-row td {
     border: 1px solid gray;
     padding: 8px;
   }
-  
+
   #jobs-table tr:nth-child(odd) {
-    background-color: #EFF6FF;
+    background-color: #eff6ff;
   }
 
   #application {
     max-width: 800px;
   }
 
-  .form-group input, select {
+  .form-group input,
+  select {
     width: auto;
   }
 
   .form-group textarea {
     width: 80%;
   }
-  
-}
+} */
 
 /* Large devices (laptops/desktops) */
-@media screen and (min-width: 992px) {
-  /* CSS rules */
-}
+/* @media screen and (min-width: 992px) {
+
+} */
 
 /* Extra large devices (large desktops) */
-@media screen and (min-width: 1200px) {
-  /* CSS rules */
-}
-/*
-
-
-
-
-
-
-
-
-
-
-
-
-*/
+/* @media screen and (min-width: 1200px) {
+} */
